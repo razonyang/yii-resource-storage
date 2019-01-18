@@ -1,0 +1,37 @@
+{
+  "name": "razonyang/yii-resource-storage",
+  "description": "Resource Storage Component for Yii Framework",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "razonyang",
+      "email": "razonyang@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~7.0",
+    "yiisoft/yii2": "~2.0.15"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "RazonYang\\Yii\\ResourceStorage\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
